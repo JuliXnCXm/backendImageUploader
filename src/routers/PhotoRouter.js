@@ -1,7 +1,5 @@
 const {Router} = require('express');
-const Photo = require("../models/PhotoModel");
 const PhotoController = require("../controllers/PhotoController");
-const jwt = require("jsonwebtoken");
 const { PRIVATE_KEY, TokenController } = require("../controllers/TokenController");
 
 
